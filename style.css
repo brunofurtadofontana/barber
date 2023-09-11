@@ -1,0 +1,173 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title{
+    margin: auto;
+    font-weight: 100;
+    font-size: 1.8em;
+    position: relative;
+    display: inline-block;
+}
+.title:after{
+    content: '';
+    background: #2958FE;
+    width: 30%;
+    height: 2px;
+    display: block;
+}
+header{
+    background-color: black ;
+    width: 100%;
+    height:90px;
+    border-bottom: 6px solid #2958FE;
+    display: table;
+    box-sizing: border-box;
+}
+.logo{
+   
+}
+.navbar{
+    margin:0 auto;
+    padding:0 auto;
+    width:90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:20px;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    width: 80px;
+    height:80px;
+    border-radius: 100px;
+    float:left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    color:#000;
+    box-sizing: border-box;
+}
+.banner img{
+    width:100%;
+    height:500px;
+    object-fit: cover;
+    filter:brightness(0.60);
+    opacity: 0.7;
+    
+}
+.carousel-caption {
+    display:flex;
+    align-items: center;
+    justify-items: center;
+    box-sizing: border-box;
+}
+.sobre{
+    margin:0 auto;
+    padding:0 auto;
+    width:100%;
+    height: auto;
+    padding:10px;
+    text-align: justify;
+    box-sizing: border-box;
+}
+.servicos{
+    margin:0 auto;
+    padding:0 auto;
+    width:100%;
+    height: auto;
+    background-color: #292929;
+    color:#fff;
+    padding:10px;
+    box-sizing: border-box;
+}
+.servicos p{
+    font-size: 1.5rem;
+}
+.col-sm-3 img{
+    width:200px;
+    height:200px;
+    object-fit: cover;
+    border:1px solid #fff;
+}
+.depoimentos{
+    margin:0 auto;
+    padding:0 auto;
+    width:100%;
+    height: auto;
+    padding:10px;
+    box-sizing: border-box;
+}
+.agende{
+    margin:0 auto;
+    padding:0 auto;
+    width:100%;
+    height:200px;
+    background-image: url('img/agende.png');
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    background-attachment: fixed;
+    color:#fff;
+    box-sizing: border-box;
+}
+.agende button{
+    width:300px;
+}
+.contato{
+    margin:0 auto;
+    padding:0 auto;
+    width:100%;
+    min-height:300px;
+    background-color: #292929;
+    color:#fff;
+    padding:10px;
+    box-sizing: border-box;
+}
+.icons i{
+    font-size:3.8rem;
+    padding:20px;
+}
+.atendimento{
+    margin:0 auto;
+    padding:0 auto;
+    width:100%;
+    min-height:300px;
+    background-image: url('img/sv.jpg');
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    color:#fff;
+    background-attachment: fixed;
+}
+.box{
+    width:80%;
+    min-height:200px;
+    background: rgba(0,0,0, 0.5);
+    text-align:center;
+    padding:10px;
+}
+.box ul{
+    width:50%;
+    height:auto;
+    border:1px solid #fff;
+    border-radius: 20px;
+    margin:0 auto;
+    padding:0 auto;
+}
+.box ul li{
+    text-decoration: none;
+    list-style: none;
+}
+footer{
+    width:100%;
+    height:80px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#fff
+}
